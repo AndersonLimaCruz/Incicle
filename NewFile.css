@@ -1,0 +1,79 @@
+
+body {
+  height: 1200px;
+  background: #ccc;
+}
+
+.container {
+	display: table-cell;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.test {
+  display: table-cell;
+  
+  width: 1200px;
+  margin: 50px 0;
+  background-color: #D6E9FE;
+}
+.molde {
+  display: flex;
+  justify-content: space-around;
+  
+  width: 1200px;
+  margin: 50px 0;
+  background-color: #D6E9FE;
+}
+
+.item img {
+  display: block;
+}
+.float{
+ width: 100px;
+  height: 20px;
+  float: left;
+}
+.right{
+	float:left;
+	margin: 5px;
+}
+.atividades{
+	float:left;
+ 	 width: 100px;
+	  height: 60px;
+	background: #00ff00;
+	 background-size: cover;
+	 margin: 20px 0;
+}
+.projetos{
+	float:left;
+ 	 width: 100px;
+  	height: 60px;
+	background: #33ccff;
+	 background-size: cover;
+	 margin: 20px 0;
+}
+.total{
+	float:left;
+   width: 100px;
+ 	 height: 60px;
+	background: #ff6600;
+	 background-size: cover;
+	 margin: 10px 0;
+}
+textarea {
+	overflow: hidden;
+	space: nowrap;
+  width: 600px;
+  height: 150px;
+  background: #fff;
+  text-align:left;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
